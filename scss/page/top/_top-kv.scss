@@ -1,0 +1,31 @@
+@use '../../global/mixin' as g;
+@use "sass:math";
+
+/* page > top > top-kv */
+#top {
+    .kv {
+        padding-top: math.div(500, 360)*100%;
+        background-image: url(../img/top/bg-top-kv-sp@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        @media screen and (min-width: 493px) {
+            padding-top: 685px;
+        }
+
+        @include g.mq(){
+            padding-top: math.div(685, 1366)*100%;
+            background-image: url(../img/top/bg-top-kv@2x.jpg);
+        }
+
+        @media screen and (min-width: 1366px) {
+            margin: 0 auto;
+            padding: 0;
+            width: 1366px;
+            height: 685px;
+        }
+
+    }
+}
+

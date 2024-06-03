@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>index.html</title>
+      <meta name="description" content=".doc(ドットドック)はパス付き資料の作成&共有が、ストレスなく、快適に行えるサービスです。" />
+      <meta name="format-detection" content="telephone=no" />
+
+      <!-- favicon/webclipicon -->
+      <!--
+      ファビコンはブラウザのお気に入りなどのアイコンで16x16px, 32x32pxの大きさ
+      ウェブクリップアイコンはスマホのホーム画面に表示されるアイコン
+      -->
+      <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="apple-touch-icon" href="webclip.png" />
+
+      <!-- ogp -->
+      <!--
+      Facebook, Twitterなどに表示されるWebページのタイトルや概要、イメージ画像、
+      URL含めた詳細情報を正しく伝えるためのHTML要素
+      -->
+      <meta property="og:site_name" content="Migleore" />
+      <meta property="og:url" content="URL(絶対パス)" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Migleore - ラグジュアリー家具" />
+      <meta property="og:description" content="ディテールにこだわったクオリティファースト" />
+      <meta property="og:image" content="URL(絶対パス)" />
+      <meta property="og:locale" content="ja_JP" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:description" content="ディテールにこだわったクオリティファースト" />
+      <meta name="twitter:image:src" content="URL(絶対パス)" />
+
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=M+PLUS+1:wght@600&display=swap" rel="stylesheet">
+
+      <!-- css -->
+      <link rel="stylesheet" href="./css/montsaint.css" />
+
+      <!-- js -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
+      <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script> -->
+      <script src="js/montsaint.js" defer></script>
+      <!-- <script src="js/montsaint_bk.js" defer></script> -->
+      <script src="js/function.js" defer></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="c-2colors-logo">
+        <div class="c-2colors-kv">
+          <div class="c-2colors-bg">
+            <div class="c-2colors-text-block c-2colors-text-white">
+              <p>Mont Saint</p>
+            </div>
+            <p class="c-2colors-second-text">Mont Saint</p>
+          </div>
+          <div class="c-2colors-text-block c-2colors-text-black">
+            <div class="c-2colors-text-inner">
+              <p aria-hidden="true">Mont Saint</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <div class="c-tab-container">
+          <div class="c-tab">
+            <ul class="c-tab-list">
+              <li class="c-tab-title" data-tab="1">ホーム</li>
+              <li class="c-tab-title" data-tab="2">お知らせ</li>
+              <li class="c-tab-title" data-tab="3">サービス</li>
+              <li class="c-tab-title" data-tab="4">会社情報</li>
+            </ul>
+          </div>
+          <div class="c-tab-panel">
+            <div class="c-tab-panel-item c-tab-panel-item1" data-panel="1">
+              <ul>
+                <li><a href="#section-concept">コンセプト - Concept</a></li>
+                <li><a href="#section-service">サービス - Service</a></li>
+                <li><a href="#section-instagram">インスタグラム - Instagram</a></li>
+                <li><a href="#section-branch">支社 - Branch</a></li>
+                <li><a href="#section-onlineshop">オンラインショップ - Online</a></li>
+              </ul>
+            </div>
+            <div class="c-tab-panel-item c-tab-panel-item2" data-panel="2">
+              <ul>
+                <li><a href="">2024/5/25 10:42<span>新サービス提供のお知らせ</span></li>
+                <li><a href="">2024/3/21 13:45<span>メンテナンス実施について</span></a></li>
+                <li><a href="">その他のお知らせ</a></li>
+              </ul>
+            </div>
+            <div class="c-tab-panel-item c-tab-panel-item3" data-panel="3">
+              <ul>
+                <li><a href="">市街地設計／開発</a></li>
+                <li><a href="">バース交通機関の設置</a></li>
+                <li><a href="">物理演算エンジン設計／搭載</a></li>
+                <li><a href="">古城探索ユニットの販売</a></li>
+              </ul>
+            </div>
+            <div class="c-tab-panel-item c-tab-panel-item4" data-panel="4">
+              <ul>
+                <li><a href="">ミッション／ビジョン</a></li>
+                <li><a href="">CEOからのメッセージ</a></li>
+                <li><a href="">IR情報</a></li>
+                <li><a href="">会社概要</a></li>
+                <li><a href="">採用情報等</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="top-kv">
+      <ul class="top-kv-slide">
+        <li class="top-kv-slide-item">
+          <img src="./img/slider1.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>草原の開発</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider2.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>サルバドール・ダリ風</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider3.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>洞窟住居</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider4.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>気候変更</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider5.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>小規模<br>トランバース</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider6.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>大規模<br>トランバース</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider7.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>スラム街</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider8.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>古城発見！</h3>
+          </div>
+        </li>
+        <li class="top-kv-slide-item">
+          <img src="./img/slider9.jpg" width="320" height="439">
+          <div class="top-kv-slide-item-filter">
+            <h3>新機能開発</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <section id="section-concept" class="top-concept">
+      <div class="top-concept-filter"></div>
+      <div class="l-container">
+        <div class="l-container--relative c-zindex10">
+          <h2 class="c-title-level2 c-title-level2--center c-color--white ">CONCEPT</h2>
+          <h3 class="top-concept-copy c-title-level3 c-title-level3--center c-color--white">
+            無限の可能性に身を置いてみる
+          </h3>
+          <p class="top-concept-text c-color--white">
+            <span>ついに本格化するメタバース開拓</span>
+            <span>動き続ける世界</span>
+            <span>それは絶えず関連しあい、変化し続ける世界</span>
+            <span>あなたの可能性が世界を形づくる</span>
+            <span>私達と共にその世界を進んでいきませんか？</span>
+          </p>
+
+          <div class="top-concept-gallery">
+            <div class="top-concept-gallery-item">
+              <img src="./img/concept1.jpg" width="225" height="225" alt="gallery-picture">
+            </div>
+            <div class="top-concept-gallery-item">
+              <img src="./img/concept2.jpg" width="225" height="225" alt="gallery-picture">
+            </div>
+            <div class="top-concept-gallery-item">
+              <img src="./img/concept3.jpg" width="225" height="225" alt="gallery-picture">
+            </div>
+            <div class="top-concept-gallery-item">
+              <img src="./img/concept4.jpg" width="225" height="225" alt="gallery-picture">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- サービスセクション -->
+    <section id="section-service" class="top-service">
+      <div class="l-container">
+        <h2 class="c-title-level2 c-title-level2--center l-space l-space-s">SERVICE</h2>
+        <div class="top-service-item">
+          <div class="top-service-item-img">
+            <img src="./img/service1.jpg" width="460" height="280" alt="service image">
+          </div>
+          <div class="top-service-item-text">
+            <h3 class="c-title-level3">市街地設計および開発</h3>
+            <p class="top-service-item-text-description">
+              世界中の市街地の設計データからあなたの思い描く街を実現します。
+              コンサルタント業務も承ります。
+            </p>
+            <div class="top-service-item-text-button">
+              <a class="c-button c-button--w100 c-button--normal" href="#">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="top-service-item">
+          <div class="top-service-item-img">
+            <img src="./img/service2.jpg" width="460" height="280" alt="service image">
+          </div>
+          <div class="top-service-item-text">
+            <h3 class="c-title-level3">バース交通機関の設置</h3>
+            <p class="top-service-item-text-description">
+              同一メタバース内の交通開発のみならず、異なるメタバース間の移動も可能にする
+              トランバース開発も行っております。
+            </p>
+            <div class="top-service-item-text-button">
+              <a class="c-button c-button--w100 c-button--normal" href="#">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="top-service-item">
+          <div class="top-service-item-img">
+            <img src="./img/service3.jpg" width="460" height="280" alt="service image">
+          </div>
+          <div class="top-service-item-text">
+            <h3 class="c-title-level3">物理演算エンジンの設計および搭載</h3>
+            <p class="top-service-item-text-description">
+              今まで経験したことのない自然現象をぜひ体験してみませんか？物理定数の変更による
+              影響は宇宙空間や生態系にまで及びます。
+            </p>
+            <div class="top-service-item-text-button">
+              <a class="c-button c-button--w100 c-button--normal" href="#">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="top-service-item">
+          <div class="top-service-item-img">
+            <img src="./img/service4.jpg" width="460" height="280" alt="service image">
+          </div>
+          <div class="top-service-item-text">
+            <h3 class="c-title-level3">古城探索ユニットの販売</h3>
+            <p class="top-service-item-text-description">
+              特定条件を満たした時に現れる古城へ、誰よりも早く辿り着くために！
+            </p>
+            <div class="top-service-item-text-button">
+              <a class="c-button c-button--w100 c-button--normal" href="#">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- instagram -->
+    <section id="section-instagram" class="top-instagram">
+      <h2 class="top-instagram-title">INSTAGRAM</h2>
+      <div class="top-instagram-img">
+        <a href="#"><img src="./img/slider9.jpg" width="320" height="439"></a>
+        <a href="#"><img src="./img/slider8.jpg" width="320" height="439"></a>
+        <a href="#"><img src="./img/slider7.jpg" width="320" height="439"></a>
+        <a href="#"><img src="./img/slider6.jpg" width="320" height="439"></a>
+      </div>
+      <div class="top-instagram-button">
+        <a class="c-button c-button--instagram c-button--transparent" href="#">VIEW MORE</a>
+      </div>
+    </section>
+
+    <!-- branch -->
+    <section id="section-branch" class="top-branch">
+      <div class="l-container">
+        <h2 class="c-title-level2 c-title-level2--center l-space l-space-s">BRANCH</h2>
+        <div class="top-branch-items">
+
+          <div class="top-branch-item">
+            <div class="top-branch-item-img">
+              <img src="./img/company1.jpg" width="320" height="211" alt="branch-image">
+            </div>
+            <h3 class="c-title-level3 c-title-level3--center">日本本店</h3>
+            <div class="top-branch-item-button">
+              <a class="c-button c-button--w80 c-button--normal" href="#">VIEW MORE</a>
+            </div>
+          </div>
+
+          <div class="top-branch-item">
+            <div class="top-branch-item-img">
+              <img src="./img/company2.jpg" width="320" height="211" alt="branch-image">
+            </div>
+            <h3 class="c-title-level3 c-title-level3--center">スペイン支店</h3>
+            <div class="top-branch-item-button">
+              <a class="c-button c-button--w80 c-button--normal" href="#">VIEW MORE</a>
+            </div>
+          </div>
+
+          <div class="top-branch-item">
+            <div class="top-branch-item-img">
+              <img src="./img/company3.jpg" width="320" height="211" alt="branch-image">
+            </div>
+            <h3 class="c-title-level3 c-title-level3--center">北欧支店</h3>
+            <div class="top-branch-item-button">
+              <a class="c-button c-button--w80 c-button--normal" href="#">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Online Shop -->
+    <section id="section-onlineshop" class="top-online-shop">
+      <h2 class="c-title-level2 c-title-level2--center c-color--white">ONLINE SHOP</h2>
+      <p style="padding: 20px 0;
+                padding-left: 0.1em;
+                color: white;
+                font-size: 36px;
+                letter-spacing: 0.1em;
+                text-align: center">
+        現在改修中
+      </p>
+      <!-- <div class="top-online-shop-button">
+        <a class="c-button c-button--w100 c-button--transparent" href="#">VIEW SHOP</a>
+      </div> -->
+    </section>
+
+    <!-- Company -->
+    <section id="section-company" class="top-company">
+      <div class="c-2colors-logo">
+        <div class="c-2colors-kv">
+          <div class="c-2colors-bg">
+            <div class="c-2colors-text-block c-2colors-text-white">
+              <p>Mont Saint</p>
+            </div>
+            <p class="c-2colors-second-text">Mont Saint</p>
+          </div>
+          <div class="c-2colors-text-block c-2colors-text-black">
+            <div class="c-2colors-text-inner">
+              <p aria-hidden="true">Mont Saint</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-company-info">
+        <p>株式会社MONTSAINT</p>
+        <p>〒123-8888 千葉県海底市珊瑚区35-35</p>
+        <p>TEL 080-3535-3535</p>
+      </div>
+      <div class="top-company-sns">
+        <p class="top-company-sns-x">TWITTER</p>
+        <p class="top-company-sns-instagram">INSTAGRAM</p>
+        <p class="top-company-sns-facebook">FACEBOOK</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-text ">&copy 2021 Mont Saint, inc.</p>
+    </footer>
+  </body>
+</html>
